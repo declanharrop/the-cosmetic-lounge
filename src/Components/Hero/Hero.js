@@ -4,7 +4,7 @@ export default function Hero({
   img = '/img/headers/home.jpg',
   imgalt,
   children,
-  height = '6s0vh',
+  height = '60vh',
   objectPosition = 'center center',
   align = 'center',
 }) {

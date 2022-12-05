@@ -55,6 +55,7 @@ const HeaderStyles = styled.header`
     box-shadow: var(--bs-small);
   }
   li {
+    font-family: playfair-display, serif;
     list-style-type: none;
     font-size: 1.8rem;
     font-weight: 500;
@@ -63,8 +64,6 @@ const HeaderStyles = styled.header`
     padding: 15px 15px 15px 0;
     display: flex;
     align-items: center;
-    gap: 20px;
-    background: yellow;
     .detail-logo {
       height: 34px;
     }

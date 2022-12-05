@@ -53,7 +53,9 @@ export default function Header() {
               </Link>
             </MenuDrawer>
             <div className="menu-logo">
-              <img src="/images/logo.png" alt="The Cosmetic Lounge" />
+              <Link href="/">
+                <img src="/img/Logo.svg" alt="The Cosmetic Lounge" />
+              </Link>
             </div>
           </div>
         ) : (
@@ -62,7 +64,9 @@ export default function Header() {
               <Links />
             </nav>
             <div className="menu-logo">
-              <img src="/images/logo.png" alt="The Cosmetic Lounge" />
+              <Link href="/">
+                <img src="/img/Logo.svg" alt="The Cosmetic Lounge" />
+              </Link>
             </div>
             <div className="contact-button">
               <Link href="/contact">
