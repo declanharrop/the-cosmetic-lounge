@@ -7,6 +7,15 @@ const ColorComponentStyles = styled.div`
     height: 6px;
     margin: 8px 0;
   }
+  .color-container {
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      p {
+        margin: 20px 0 0;
+      }
+    }
+  }
 `;
 
 export default function ColorComponent({
