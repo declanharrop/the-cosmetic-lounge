@@ -1,11 +1,9 @@
-import Hero from '../Components/Hero/Hero';
+import HeroSlider from '../Components/Hero/HeroSlider';
 
 export default function Gallery() {
   return (
     <div>
-      <Hero height="40vh">
-        <h1>Gallery</h1>
-      </Hero>
+      <HeroSlider />
     </div>
   );
 }

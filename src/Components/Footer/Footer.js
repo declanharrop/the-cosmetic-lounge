@@ -6,6 +6,9 @@ import Sitemap from './Sitemap';
 export default function Footer() {
   return (
     <FooterStyles>
+      <div className="logo">
+        <img src="/img/Logo.svg" alt="Footer" />
+      </div>
       <Contact />
       <Sitemap />
       <div className="lower">

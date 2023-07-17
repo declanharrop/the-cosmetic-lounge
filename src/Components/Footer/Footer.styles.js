@@ -1,6 +1,13 @@
 import styled from 'styled-components';
 
 export const FooterStyles = styled.div`
+  margin-top: 50px;
+  .logo {
+    img {
+      width: 70vw;
+      max-width: 500px;
+    }
+  }
   .lower {
     max-width: 600px;
     margin: 40px auto 10px;
@@ -12,7 +19,7 @@ export const FooterStyles = styled.div`
     .dhweblogo {
       margin-top: 20px;
       img {
-        width: 80px;
+        width: 60px;
       }
     }
   }
