@@ -21,6 +21,9 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 100%;
     max-height: 1500px;
+    .feature-font {
+      text-shadow: 0 0 20px var(--green), 0 0 20px var(--green);
+    }
   }
   .buttons {
     margin-top: 40px;

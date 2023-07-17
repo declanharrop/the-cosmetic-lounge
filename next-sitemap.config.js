@@ -2,6 +2,6 @@
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://thecosmeticlounge.co.uk',
+  siteUrl: 'https://thecosmeticloungederby.co.uk',
   generateRobotsTxt: true,
 };
