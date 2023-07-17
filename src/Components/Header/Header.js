@@ -19,7 +19,7 @@ const Links = () => (
 );
 
 export default function Header() {
-  const [width, setWidth] = useState();
+  const [width, setWidth] = useState(0);
   const { toggleMenu } = useContext(PageContext);
 
   useEffect(() => {
