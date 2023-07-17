@@ -6,14 +6,14 @@ import MenuDrawer from './MenuDrawer';
 
 const Links = () => (
   <>
-    <Link href="/treatments">
+    <a href="https://thecosmeticlounge.book.app/book-now">
       <li>Treatments</li>
-    </Link>
-    <Link href="/team">
-      <li>Team</li>
-    </Link>
+    </a>
     <Link href="/gallery">
       <li>Gallery</li>
+    </Link>
+    <Link href="/about">
+      <li>About</li>
     </Link>
   </>
 );
@@ -27,6 +27,7 @@ export default function Header() {
       setWidth(window.innerWidth);
     }
     window.addEventListener('resize', handleResize);
+    handleResize();
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -36,7 +37,7 @@ export default function Header() {
     <>
       <div className="bar" style={{ height: '100px', width: '100%' }} />
       <HeaderStyles>
-        {width < 700 ? (
+        {width < 850 ? (
           <div className="mobile-nav">
             <MenuDrawer>
               <nav onClick={toggleMenu}>

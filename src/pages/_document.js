@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="stylesheet" href="https://use.typekit.net/thq8zpc.css" />
+          <link rel="stylesheet" href="https://use.typekit.net/cuo4mno.css" />
         </Head>
         <body>
           <Main />

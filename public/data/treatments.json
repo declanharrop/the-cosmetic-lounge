@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Lip Enhancements",
+    "slug": "lip-enhancements",
+    "image": "/img/headers/home.jpg",
+    "subtitle": "",
+    "treatment-details": "",
+    "texts": [
+      "Dermal Filler is administered to the lips via neeled in volumes of either 0.5ml or 1 ml.",
+      "The filler hydrates the lips, thus creating a more healthy and youthful appearance.",
+      "Its also adds volume and can be used to improve shape and contour. To achieve your desired look you may be required to build the lips up over a period of time",
+      "The longevity of this treatment is approx 6-9months.",
+      "We use a variety of fillers to treat the lips dependant on the desired look."
+    ],
+    "treatments": [
+      {
+        "name": "From",
+        "section": "",
+        "description": "",
+        "costs": [
+          {
+            "price": "100"
+          }
+        ],
+        "consultaion": false,
+        "patchTest": false
+      }
+    ]
+  },
+  {
+    "name": "Anti-Wrinkle",
+    "slug": "anti-wrinkle",
+    "image": "/img/headers/home.jpg",
+    "subtitle": "",
+    "treatment-details": "",
+    "texts": [],
+    "treatments": [
+      {
+        "name": "Anti Wrinkle Treatment",
+        "section": "",
+        "description": "The treatment of facial lines an wrinkles is one of the most populare treatments here at The Cosmetic Lounge. Botulinum Toxin when injected into the muscle temporarily relaxes it by blocking the nerve impulses. The muscle is then temporarily unable to contract so that dynamic wrinkles arent formed. This gives the facial skin a smoother and more youthful appearance. Botulinum Toxin can be used to treat both men and Women. men very often require a slightly higher dose than women. It can take around 2-14 days to see the full effects of the treatment and typically lasts around 3-4 months. We offer all and our clients a 2 week follow appointment for review and top up to the ares if required. Treatment can be repeated at a minmum of 3 monthly",
+        "costs": [
+          {
+            "price": "100",
+            "size": ""
+          }
+        ],
+        "consultaion": true,
+        "patchTest": false
+      },
+      {
+        "name": "Masseter Botox for Jawline slimmng",
+        "section": "",
+        "description": "jaw botox relaxes and reduces the size of the Masseter Muscle. Besides slimming the jaw , masseter botox  can also reduce Teeth Grinding and headaches/,migraines. treatment can be effective for upto 6-9 months ",
+        "costs": [
+          {
+            "price": "200",
+            "size": ""
+          }
+        ],
+        "consultaion": true,
+        "patchTest": false
+      },
+      {
+        "name": "Hyperhidrosis/excessive sweating",
+        "section": "",
+        "description": "This treatment is quick, effective and a game chnager for many. The product is used to block overactive sweat glands which can result in 6-9 months of sweat reduction .",
+        "costs": [
+          {
+            "price": "300",
+            "size": ""
+          }
+        ],
+        "consultaion": true,
+        "patchTest": false
+      }
+    ]
+  },
+  {
+    "name": "Dermal Fillers",
+    "slug": "dermal-fillers",
+    "subtitle": "",
+    "image": "/img/headers/home.jpg",
+    "treatment-details": "",
+    "texts": [],
+    "treatments": [
+      {
+        "name": "",
+        "section": "",
+        "description": "",
+        "costs": [
+          {
+            "price": "",
+            "size": ""
+          }
+        ],
+        "consultaion": false,
+        "patchTest": false
+      }
+    ]
+  },
+  {
+    "name": "Dermal Fillers",
+    "slug": "dermal-fillers",
+    "subtitle": "",
+    "image": "/img/headers/home.jpg",
+    "treatment-details": "",
+    "texts": [
+      "text",
+      "text"
+    ],
+    "treatments": [
+      {
+        "name": "",
+        "section": "",
+        "description": "",
+        "costs": [
+          {
+            "price": "",
+            "size": ""
+          },
+          {
+            "price": "",
+            "size": ""
+          }
+        ],
+        "consultaion": false,
+        "patchTest": false
+      }
+    ]
+  },
+  {
+    "name": "Dermal Fillers",
+    "slug": "dermal-fillers",
+    "subtitle": "",
+    "image": "/img/headers/home.jpg",
+    "treatment-details": "",
+    "texts": [
+      "text",
+      "text"
+    ],
+    "treatments": [
+      {
+        "name": "",
+        "section": "",
+        "description": "",
+        "costs": [
+          {
+            "price": "",
+            "size": ""
+          },
+          {
+            "price": "",
+            "size": ""
+          }
+        ],
+        "consultaion": false,
+        "patchTest": false
+      }
+    ]
+  }
+]

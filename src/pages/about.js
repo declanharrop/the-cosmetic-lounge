@@ -1,10 +1,10 @@
 import Hero from '../Components/Hero/Hero';
 
-export default function Team() {
+export default function About() {
   return (
     <div>
       <Hero height="40vh">
-        <h1>Team</h1>
+        <h1>About</h1>
       </Hero>
     </div>
   );

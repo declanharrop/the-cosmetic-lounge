@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>The Cosmetic Lounge</title>
-        <link rel="stylesheet" href="https://use.typekit.net/cuo4mno.css" />
       </Head>
       <Typography />
       <GlobalStyle />

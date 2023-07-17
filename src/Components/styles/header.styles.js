@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HeaderStyles = styled.header`
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100px;
   z-index: 100;
@@ -9,6 +9,7 @@ const HeaderStyles = styled.header`
   background: var(--cream);
   box-shadow: var(--bs-small);
   top: 0;
+  left: 0;
   .desktop-nav {
     height: 100%;
     display: flex;
@@ -32,6 +33,7 @@ const HeaderStyles = styled.header`
       flex-direction: column;
       width: 240px;
       li {
+        cursor: pointer;
         padding: 16px 10px;
         border-bottom: 1px solid var(--green);
         border-top: 1px solid var(--green);
@@ -40,6 +42,10 @@ const HeaderStyles = styled.header`
         font-size: 2rem;
       }
       margin-bottom: 30px;
+    }
+    .menu-logo {
+      left: auto;
+      right: 10px;
     }
   }
   .drawer {
@@ -59,22 +65,33 @@ const HeaderStyles = styled.header`
     list-style-type: none;
     font-size: 1.8rem;
     font-weight: 500;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      color: var(--green);
+      transform: scale(1.1);
+    }
   }
   .menu-logo {
     padding: 15px 15px 15px 0;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 70px);
     .detail-logo {
-      height: 34px;
     }
     img {
-      height: 50px;
+      width: 140px;
+      height: 70px;
     }
   }
   .menuIcon {
     position: relative;
     z-index: 120;
-    margin: 15px;
+    margin: 0px;
   }
 `;
 

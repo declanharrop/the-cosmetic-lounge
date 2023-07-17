@@ -1,12 +1,14 @@
 import HeroStyles from './Hero.styles';
 
 export default function Hero({
-  img = '/img/headers/home.jpg',
+  img = '/img/headers/home.webp',
   imgalt,
   children,
   height = '60vh',
-  objectPosition = 'center center',
+  objectPosition = 'left center',
   align = 'center',
+  overlayColor = 'var(--green-25)',
+  textColor = 'var(--cream)',
 }) {
   return (
     <HeroStyles style={{ height: `${height}` }}>
@@ -16,7 +18,14 @@ export default function Hero({
         style={{ objectPosition: `${objectPosition}` }}
       />
       {children && (
-        <div className="overlay" style={{ justifyContent: `${align}` }}>
+        <div
+          className="overlay"
+          style={{
+            justifyContent: `${align}`,
+            backgroundColor: `${overlayColor}`,
+            color: `${textColor}`,
+          }}
+        >
           {children}
         </div>
       )}

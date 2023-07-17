@@ -10,7 +10,6 @@ const HeroStyles = styled.div`
     object-fit: cover;
   }
   .overlay {
-    background-color: var(--cream-fade-s);
     position: absolute;
     display: flex;
     align-items: center;
@@ -19,6 +18,13 @@ const HeroStyles = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
+  }
+  .buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
 `;
 

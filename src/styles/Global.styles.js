@@ -13,7 +13,13 @@ const GlobalStyle = createGlobalStyle`
     --cream-fade-s: #f2eeeaba;
     --cream-fade-m: #f2eeea7d;
     --cream-fade-l: #F2EEEA40;
+    --cream-75: #F2EEEAbf;
+    --cream-50: #F2EEEA7f;
+    --cream-25: #F2EEEA3f;
     --green: #004542;
+    --green-75: #004542bf;
+    --green-50: #0045427f;
+    --green-25: #0045423f;
     --black: #002A28;
     --brown: #5E4C21;
     --yellow: #f9cc77;
