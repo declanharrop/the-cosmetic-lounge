@@ -5,7 +5,7 @@ export default function Hero({
   imgalt,
   children,
   height = '60vh',
-  objectPosition = 'left center',
+  objectPosition = 'center center',
   align = 'center',
   overlayColor = 'var(--green-25)',
   textColor = 'var(--cream)',

@@ -44,6 +44,7 @@ export default function HomePage() {
         src="img/headers/contact.webp"
         position="center bottom"
         overlayColor="var(--green-50)"
+        height="70vh"
       >
         <div className="content">
           <h3>A wide range of treatments</h3>
@@ -54,9 +55,7 @@ export default function HomePage() {
             facelifts, and rejuvenation treatments. At The Cosmetic Lounge, we
             combine expertise, attention to detail, and a warm, inviting
             atmosphere to provide you with outstanding results that leave you
-            feeling confident and refreshed. Your journey towards enhanced
-            natural beauty starts here. Experience the difference at The
-            Cosmetic Lounge today.
+            feeling confident and refreshed.
           </p>
           <a href="https://thecosmeticlounge.book.app/book-now">
             <Button>More</Button>

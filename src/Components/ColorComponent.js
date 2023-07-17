@@ -14,6 +14,17 @@ const ColorComponentStyles = styled.div`
       p {
         margin: 20px 0 0;
       }
+      .headshot {
+        height: 240px;
+        width: 240px;
+        margin: 50px 0 0;
+        border-radius: 50%;
+        border: 4px solid var(--cream);
+        box-shadow: 0 0 20px var(--cream-50);
+      }
+      h5 {
+        font-size: 3rem;
+      }
     }
   }
 `;
@@ -22,8 +33,8 @@ export default function ColorComponent({
   children,
   color = 'var(--green)',
   textColor = 'var(--cream)',
-  margin = '-5vh 0 -5vh',
-  padding = '10vh 10px',
+  margin = '-24px 0 -24px',
+  padding = '100px 10px',
 }) {
   return (
     <ColorComponentStyles style={{ margin: `${margin}` }}>

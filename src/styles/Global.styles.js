@@ -103,7 +103,16 @@ const GlobalStyle = createGlobalStyle`
     box-shadow: var(--bs-small);
   }
   
-
+  .container {
+    max-width: 1000px;
+    margin: 50px auto;
+    h1 {
+      margin-bottom: 50px;
+    }
+    p {
+      margin: 20px 0 0;
+    }
+  }
   @media screen and (max-width: 600px) {
     .large-btn {
       padding: 12px 16px;

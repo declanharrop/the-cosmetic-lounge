@@ -21,6 +21,7 @@ const ImageStyles = styled.div`
     align-items: center;
     justify-content: center;
     .overlay-container {
+      padding: 0 10px;
       .content {
         max-width: 1000px;
         margin: 0 auto;

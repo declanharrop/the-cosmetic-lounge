@@ -3,6 +3,7 @@ import Header from '../Components/Header/Header';
 import { PageProvider } from '../Context/PageContext';
 import GlobalStyle from '../styles/Global.styles';
 import Typography from '../styles/Typography.styles';
+import Footer from '../Components/Footer/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,6 +16,7 @@ function MyApp({ Component, pageProps }) {
       <PageProvider>
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </PageProvider>
     </>
   );

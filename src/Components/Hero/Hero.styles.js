@@ -28,6 +28,7 @@ const HeroStyles = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
   }
 `;
 
