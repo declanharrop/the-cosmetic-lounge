@@ -77,16 +77,19 @@ export default function About() {
           />
           <h5 style={{ margin: '20px 0 30px' }}>Kelly</h5>
           <p>
-            Kelly, a Registered Nurse, brings a wealth of experience in Medical
-            Nursing from various sectors including private surgical, District
-            nursing, and Rapid Response. While managing her aesthetic clinics,
-            Kelly also continues to serve as a rapid response nurse within the
-            NHS. Kelly takes immense pride in her work and strives to enhance
-            your natural beauty through our affordable non-surgical treatments.
-            With extensive training at an advanced level, Kelly possesses a vast
-            knowledge base that enables her to provide safe and professional
-            treatments, thorough consultations, and precise aftercare for all
-            clients.
+            Kelly is our Registered Nurse, and brings a wealth of experience
+            from various Nursing sectors including private surgical, District
+            nursing, and Rapid Response. After almost 20 years Kelly decided to
+            take the leap and leave rhe NHS to focus on her passion in the world
+            of Aesthetics.
+          </p>
+          <p>
+            Kelly takes immense pride in her work and strives to enhance your
+            natural beauty through our affordable non-surgical treatments. With
+            extensive training at an advanced level, and 5 year’s experience in
+            the industry Kelly possesses a vast knowledge base that enables her
+            to provide safe and professional treatments, thorough consultations,
+            and precise aftercare for all clients.
           </p>
         </div>
       </ColorComponent>
