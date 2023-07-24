@@ -24,12 +24,12 @@ export default function About() {
             tailored to your unique needs.
           </p>
           <p>
-            Whether you're looking for Botox injections to smooth out fine lines
-            and wrinkles, dermal fillers to restore volume and plumpness,
-            chemical peels to rejuvenate your skin, or non-surgical facelifts to
-            lift and tighten sagging skin, we offer a comprehensive range of
-            services designed to address your specific concerns and help you
-            achieve your desired results.
+            Whether you're looking for anti-wrinkle injections to smooth out
+            fine lines and wrinkles, dermal fillers to restore volume and
+            plumpness, chemical peels to rejuvenate your skin, or non-surgical
+            facelifts to lift and tighten sagging skin, we offer a comprehensive
+            range of services designed to address your specific concerns and
+            help you achieve your desired results.
           </p>
           <p>
             At The Cosmetic Lounge, we understand that every person is
