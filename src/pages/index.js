@@ -29,11 +29,11 @@ export default function HomePage() {
           <h3>Welcome to the Cosmetic Lounge</h3>
           <p style={{ marginBottom: '30px' }}>
             Welcome to The Cosmetic Lounge, your premier destination for
-            exceptional facial aesthetic treatments in Derby. We believe that
-            true beauty lies in enhancing and embracing your unique features.
-            Our dedicated team of skilled professionals is passionate about
-            helping you achieve your desired look while ensuring your comfort
-            and satisfaction.
+            exceptional aesthetic treatments in Derby. We believe that true
+            beauty lies in enhancing and embracing your unique features. Our
+            dedicated team of skilled professionals is passionate about helping
+            you achieve your desired look while ensuring your comfort and
+            satisfaction.
           </p>
           <Link href="/About">
             <Button>About Us</Button>

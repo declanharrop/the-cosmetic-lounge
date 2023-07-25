@@ -14,7 +14,7 @@ export default function About() {
         <div className="content">
           <h3>the Cosmetic Lounge</h3>
           <p style={{ marginBottom: '30px' }}>
-            Welcome to The Cosmetic Lounge, the ultimate destination for facial
+            Welcome to The Cosmetic Lounge, the ultimate destination for
             aesthetic treatments in Derby. We firmly believe that true
             confidence begins with feeling comfortable and content in your own
             skin. That's why, at The Cosmetic Lounge, we specialise in
