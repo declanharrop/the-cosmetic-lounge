@@ -80,7 +80,7 @@ export default function About() {
             Kelly is our Registered Nurse, and brings a wealth of experience
             from various Nursing sectors including private surgical, District
             nursing, and Rapid Response. After almost 20 years Kelly decided to
-            take the leap and leave rhe NHS to focus on her passion in the world
+            take the leap and leave the NHS to focus on her passion in the world
             of Aesthetics.
           </p>
           <p>

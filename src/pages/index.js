@@ -50,12 +50,12 @@ export default function HomePage() {
           <h3>A wide range of treatments</h3>
           <p style={{ marginBottom: '30px' }}>
             With a focus on personalized care and the latest advancements in the
-            field, we offer a range of services including Botox injections,
-            dermal fillers, chemical peels, microdermabrasion, non-surgical
-            facelifts, and rejuvenation treatments. At The Cosmetic Lounge, we
-            combine expertise, attention to detail, and a warm, inviting
-            atmosphere to provide you with outstanding results that leave you
-            feeling confident and refreshed.
+            field, we offer a range of services including Anti Wrinkle
+            injections, dermal fillers, chemical peels, microdermabrasion,
+            non-surgical facelifts, and rejuvenation treatments. At The Cosmetic
+            Lounge, we combine expertise, attention to detail, and a warm,
+            inviting atmosphere to provide you with outstanding results that
+            leave you feeling confident and refreshed.
           </p>
           <a href="https://thecosmeticlounge.book.app/book-now">
             <Button>More</Button>
