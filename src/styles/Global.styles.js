@@ -46,6 +46,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     line-height: 1;
     margin: 0;
+    background-color: var(--cream);
     padding: 0;
     font-family: ff-basic-gothic-pro, --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     text-align: center;

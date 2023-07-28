@@ -4,10 +4,12 @@ import ColorComponent from '../Components/ColorComponent';
 import Hero from '../Components/Hero/Hero';
 import Button from '../Elements/Button';
 import Image from '../Components/Image/Image';
+import Head from '../Elements/Head';
 
 export default function HomePage() {
   return (
     <div>
+      <Head />
       <Hero height="90vh" overlayColor="var(--green-25)">
         <div className="content">
           <h1 className="feature-font">The Cosmetic Lounge</h1>

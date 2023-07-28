@@ -8,6 +8,7 @@ const defaultValues = {
 export const PageContext = createContext(defaultValues);
 export const PageProvider = ({ children }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isOverage, setOverage] = useState(false);
 
   const closeMenu = () => {
     setMenuOpen(false);
@@ -17,7 +18,9 @@ export const PageProvider = ({ children }) => {
   };
 
   return (
-    <PageContext.Provider value={{ toggleMenu, isMenuOpen, closeMenu }}>
+    <PageContext.Provider
+      value={{ toggleMenu, isMenuOpen, closeMenu, isOverage, setOverage }}
+    >
       {children}
     </PageContext.Provider>
   );

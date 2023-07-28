@@ -1,12 +1,16 @@
-import Link from 'next/link';
 import ColorComponent from '../Components/ColorComponent';
 import Hero from '../Components/Hero/Hero';
-import Button from '../Elements/Button';
 import Image from '../Components/Image/Image';
+import Head from '../Elements/Head';
 
 export default function About() {
   return (
     <div>
+      <Head
+        title="About Us - The Cosmetic Lounge Derby Aesthetics"
+        description="The Cosmetic Lounge, the ultimate destination for aesthetic treatments in Derby. We firmly believe that true confidence begins with feeling comfortable and content in your own skin. Anti-wrinkle injections to smooth out fine lines and wrinkles, dermal fillers to restore volume and plumpness, chemical peels to rejuvenate your skin, or non-surgical facelifts to lift and tighten sagging skin."
+        url="https://thecosmeticloungederby.co.uk/about"
+      />
       <Hero height="60vh" src="img/headers/about.webp">
         <h1>About</h1>
       </Hero>
