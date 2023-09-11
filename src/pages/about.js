@@ -103,6 +103,77 @@ export default function About() {
         overlayColor="var(--green-50)"
         height="50vh"
       />
+      <ColorComponent>
+        <div className="content">
+          <img
+            className="headshot"
+            src="img/team/ramona.webp"
+            alt="Rochelle headshot"
+          />
+          <h5 style={{ margin: '20px 0 30px' }}>Ramona</h5>
+          <p>
+            Hi, my name is Ramona Balusi, hairstylist for 13 years specialising
+            in the art of hair colouring. I offer a personalised service in a
+            lovely calm salon, for those that try to stay away from big
+            busy/noisy salons.
+          </p>
+          <p>
+            I love listening to my clients so that I can offer the best results
+            and a sincere advice, my goal is to help you fall in love with your
+            hair, teach you how to best manage it at home and keep it nice and
+            healthy.
+          </p>
+          <p>
+            I offer a fully bespoke colour service, cutting, hair treatments, a
+            heavenly scalp massage and a beautiful bouncy blow-dry.
+          </p>
+          <p>
+            For pricing please refer to my price list, for bespoke colour
+            services a quote will be offered with the consultation.
+          </p>
+          <p>
+            For extra long and thick hair charges will apply to compensate for
+            extra time and products.
+          </p>
+          <p>
+            A non refundable deposit of £35 is required to secure the booking,
+            this will be deducted from the colour service.
+          </p>
+          <p>A patch test is required at least 48h before your appointment.</p>
+          <img
+            className="headshot"
+            src="img/team/jada.webp"
+            alt="Rochelle headshot"
+          />
+          <h5 style={{ margin: '20px 0 30px' }}>Jada</h5>
+          <p>
+            Hi! I’m Jada, the founder of The Face Code, located in Derby in a
+            beautiful and luxurious salon.
+          </p>
+          <p>
+            I specialise in Brow and Lip Tattooing and have a passion for
+            enhancing natural beauty by providing a bespoke service for each of
+            my clients and ensuring they leave the clinic feeling amazing.
+          </p>
+          <p>
+            I pride myself on providing a professional and comfortable service,
+            as well as constantly mastering new techniques so I can give my
+            clients the best. Throughout my career I am proud to say I have
+            trained with the best in the industry and will continue to develop
+            my knowledge and skills as my business grows.
+          </p>
+          <p>
+            I believe that success comes from hard work and dedication, and I am
+            committed to giving my clients an exceptional service.
+          </p>
+        </div>
+      </ColorComponent>
+      <Image
+        src="img/gallery/DSC-3641.webp"
+        position="center"
+        overlayColor="var(--green-50)"
+        height="50vh"
+      />
       <ColorComponent margin="-24px 0 30px">
         <div className="content">
           <h3>Your Visit</h3>
