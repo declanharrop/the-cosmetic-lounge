@@ -14,9 +14,9 @@ export default function HomePage() {
         <div className="content">
           <h1 className="feature-font">The Cosmetic Lounge</h1>
           <div className="buttons">
-            <a href="https://thecosmeticlounge.book.app/book-now">
+            <Link href="/book-warning">
               <Button>Book</Button>
-            </a>
+            </Link>
             <Link href="/About">
               <Button>About</Button>
             </Link>
@@ -59,9 +59,9 @@ export default function HomePage() {
             inviting atmosphere to provide you with outstanding results that
             leave you feeling confident and refreshed.
           </p>
-          <a href="https://thecosmeticlounge.book.app/book-now">
+          <Link href="book-warning">
             <Button>More</Button>
-          </a>
+          </Link>
         </div>
       </Image>
     </div>

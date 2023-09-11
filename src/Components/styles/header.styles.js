@@ -22,6 +22,12 @@ const HeaderStyles = styled.header`
       align-items: center;
       gap: 20px;
     }
+    .contact-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
   }
   .mobile-nav {
     height: 100%;
@@ -42,6 +48,13 @@ const HeaderStyles = styled.header`
         font-size: 2rem;
       }
       margin-bottom: 30px;
+    }
+    .contact-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
     }
     .menu-logo {
       left: auto;

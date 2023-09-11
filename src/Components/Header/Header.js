@@ -44,15 +44,27 @@ export default function Header() {
                 <nav onClick={toggleMenu}>
                   <Links />
                 </nav>
-                <Link href="/contact">
-                  <button
-                    className="large-btn"
-                    type="button"
-                    onClick={toggleMenu}
-                  >
-                    Contact
-                  </button>
-                </Link>
+
+                <div className="contact-button">
+                  <Link href="/book-warning">
+                    <button
+                      className="large-btn"
+                      type="button"
+                      onClick={toggleMenu}
+                    >
+                      Book
+                    </button>
+                  </Link>
+                  <Link href="/contact">
+                    <button
+                      className="large-btn"
+                      type="button"
+                      onClick={toggleMenu}
+                    >
+                      Contact
+                    </button>
+                  </Link>
+                </div>
               </MenuDrawer>
               <div className="menu-logo">
                 <Link href="/">
@@ -71,6 +83,11 @@ export default function Header() {
                 </Link>
               </div>
               <div className="contact-button">
+                <Link href="/book-warning">
+                  <button className="large-btn" type="button">
+                    Book
+                  </button>
+                </Link>
                 <Link href="/contact">
                   <button className="large-btn" type="button">
                     Contact

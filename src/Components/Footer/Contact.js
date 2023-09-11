@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { ContactStyles } from './Footer.styles';
 
 export default function Contact() {
@@ -22,12 +23,9 @@ export default function Contact() {
           </div>
           <div className="contact-section">
             <p className="title">Book</p>
-            <a
-              href="https://thecosmeticlounge.book.app/book-now"
-              className="book-click"
-            >
+            <Link href="/book-warning">
               <p>Book now</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
