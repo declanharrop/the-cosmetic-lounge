@@ -10,7 +10,11 @@ export default function HomePage() {
   return (
     <div>
       <Head />
-      <Hero height="90vh" overlayColor="var(--green-25)">
+      <Hero
+        height="90vh"
+        overlayColor="var(--green-25)"
+        img="/img/headers/homenew.webp"
+      >
         <div className="content">
           <h1 className="feature-font">The Cosmetic Lounge</h1>
           <div className="buttons">
