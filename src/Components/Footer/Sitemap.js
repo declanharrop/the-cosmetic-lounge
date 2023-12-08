@@ -32,10 +32,10 @@ export default function Sitemap() {
           </div>
           <div className="links">
             <p>MONDAY: 9am - 7pm</p>
-            <p>TUESDAY: 9am - 5pm</p>
+            <p>TUESDAY: CLOSED</p>
             <p>WEDNESDAY: 9am - 5pm</p>
             <p>THURSDAY: 9am - 5pm</p>
-            <p>FRIDAY: 9am - 5pm</p>
+            <p>FRIDAY: 9am - 8pm</p>
             <p>SATURDAY: 9am - 5pm</p>
             <p>SUNDAY: CLOSED</p>
           </div>
