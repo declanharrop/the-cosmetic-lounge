@@ -1,7 +1,9 @@
+import Link from 'next/link';
 import ColorComponent from '../Components/ColorComponent';
 import Hero from '../Components/Hero/Hero';
 import Image from '../Components/Image/Image';
 import Head from '../Elements/Head';
+import Button from '../Elements/Button';
 
 export default function About() {
   return (
@@ -108,7 +110,7 @@ export default function About() {
           <img
             className="headshot"
             src="img/team/ramona.webp"
-            alt="Rochelle headshot"
+            alt="Ramona headshot"
           />
           <h5 style={{ margin: '20px 0 30px' }}>Ramona</h5>
           <p>
@@ -139,11 +141,17 @@ export default function About() {
             A non refundable deposit of £35 is required to secure the booking,
             this will be deducted from the colour service.
           </p>
-          <p>A patch test is required at least 48h before your appointment.</p>
+          <p style={{ marginBottom: '30px' }}>
+            A patch test is required at least 48h before your appointment.
+          </p>
+          <Link href="/team/ramona">
+            <Button>My Gallery</Button>
+          </Link>
           <img
+            style={{ marginTop: '120px' }}
             className="headshot"
             src="img/team/jada.webp"
-            alt="Rochelle headshot"
+            alt="Jada headshot"
           />
           <h5 style={{ margin: '20px 0 30px' }}>Jada</h5>
           <p>
@@ -162,10 +170,13 @@ export default function About() {
             trained with the best in the industry and will continue to develop
             my knowledge and skills as my business grows.
           </p>
-          <p>
+          <p style={{ marginBottom: '30px' }}>
             I believe that success comes from hard work and dedication, and I am
             committed to giving my clients an exceptional service.
           </p>
+          <Link href="/team/jada">
+            <Button>My Gallery</Button>
+          </Link>
         </div>
       </ColorComponent>
       <Image

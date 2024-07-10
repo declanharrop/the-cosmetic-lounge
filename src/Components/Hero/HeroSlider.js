@@ -76,7 +76,7 @@ export default function HeroSlider({
     '/DSC-3625.webp',
     '/DSC-3641.webp',
   ],
-  height = '100vh',
+  height = '90vh',
   children,
   overlayColor = 'var(--navy-50)',
   textColor = 'white',

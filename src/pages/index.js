@@ -21,7 +21,7 @@ export default function HomePage() {
             <Link href="/book-warning">
               <Button>Book</Button>
             </Link>
-            <Link href="/About">
+            <Link href="/about">
               <Button>About</Button>
             </Link>
             <Link href="/gallery">
@@ -41,7 +41,7 @@ export default function HomePage() {
             you achieve your desired look while ensuring your comfort and
             satisfaction.
           </p>
-          <Link href="/About">
+          <Link href="/about">
             <Button>About Us</Button>
           </Link>
         </div>
