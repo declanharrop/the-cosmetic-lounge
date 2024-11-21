@@ -17,8 +17,8 @@ export default function Contact() {
           <h3>Contact Us</h3>
           <div className="contact-section">
             <p className="title">Phone:</p>
-            <a href="tel:+447496091149" className="call-click">
-              <p>07496 091 149</p>
+            <a href="tel:+447752614616" className="call-click">
+              <p>07752 614616</p>
             </a>
           </div>
           <div className="contact-section">
